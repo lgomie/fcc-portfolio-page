@@ -180,23 +180,37 @@ h2 {
         flex-direction: column;
         text-align: center;
     }
+    .logo {
+        font-size: 1.5rem;
+    }
     .navbar-link {
-        font-size: 1rem;
+        font-size: .8rem;
         transition: none;
     }
     .navbar-link:hover {
         transform: none;
     }
-
+    .welcome h1 {
+        font-size: 1.6rem;
+    }
+    h2 {
+        font-size: 1.5rem;
+    }
     .tiles-wrapper {
         grid-template-columns: 1fr;
     }
-
-    .project-tile a img{
+    .project-tile a img {
         transition: none;
     }
-
     .project-tile a img:hover {
         transform: none;
+    }
+    .contact-links {
+        font-size: 1.2rem;
+        ;
+    }
+    .footer {
+        font-size: .8rem;
+        ;
     }
 }
