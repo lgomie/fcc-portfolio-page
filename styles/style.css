@@ -179,7 +179,6 @@ h2 {
     .navbar {
         display: block;
         text-align: center;
-        transition: top 0.3s;
     }
     .logo {
         font-size: 1.5rem;
